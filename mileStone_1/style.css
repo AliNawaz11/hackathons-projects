@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aliceblue;
+    margin: 0;
+    padding: 150px;
+}
+.resume{
+    display: flex;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
+.left-section{
+    background-color: #2c2c2ccf;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid orange;
+
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid  orange;
+}
+h1{
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px orange ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ul{
+
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+ul li{
+    margin: 5px 0;
+}
+.right-section{
+    padding: 20px;
+    width: 65%;
+}
+button{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  width:50%;
+  height:5%;
+    background-color:blue;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button :hover{
+    color:white;
+    background-color: darkblue;
+    
+    
+}

@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Resume</title>
+    <link rel="stylesheet" href="cv4.css">
+</head>
+<body>
+    <h1 id="h1"> Resume Builder By Ali Nawaz Mangrio</h1>
+    <form id="resumeForm">
+       
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name" id="lbl">Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name" required>
+            <br>
+            <label for="email" id="lbl">Email:</label>
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+            <br>
+            <label for="phone no" id="lbl">Phone:</label>
+            <input type="number" name="phone no" id="phone" placeholder="enter your phone">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Education</legend>
+            
+            <textarea name="education" id="education" rows="5" placeholder="enter your education" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <textarea name="skills" id="skills" rows="5" placeholder="enter your skills" required></textarea>
+        </fieldset>
+
+<fieldset>
+    <legend>Experience</legend>
+   
+    <textarea name="Experience" id="experience" placeholder="enter your experience" rows="5" required></textarea>
+</fieldset>
+
+<button type="submit">Generate Your Resume</button>
+    </form> 
+    <br>
+
+<div id="resumeOutput">
+    <!-- Resume will be generated  -->
+
+</div>
+
+<script src="cv4.js"></script>
+</body>
+</html>
